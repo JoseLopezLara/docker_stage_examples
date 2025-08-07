@@ -1,0 +1,8 @@
+services:
+  stage_service:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: stage_test_container_9
+    volumes:
+      - docs:/docs
