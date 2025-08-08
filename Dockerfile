@@ -6,6 +6,8 @@ WORKDIR /app
 RUN mkdir docs 
 RUN touch docs/doc_from_stage_one.txt
 
+RUN mkdir docs/modules 
+RUN touch docs/modules/modules_example_from_stage_one.txt
 
 # STAGE 2
 FROM alpine:latest
