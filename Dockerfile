@@ -15,6 +15,6 @@ COPY --from=stage_one /app/docs /app/docs
 
 COPY . . 
 
-CMD ["ls docs/"]
+
 
 

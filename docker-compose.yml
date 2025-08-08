@@ -3,6 +3,13 @@ services:
     build:
       context: .
       dockerfile: Dockerfile
+    
     container_name: stage_test_container_9
+    
     volumes:
-      - docs:/docs
+      - ./docs:/app/docs
+
+    stdin_open: true
+    tty: true
+    
+    
