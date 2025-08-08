@@ -9,6 +9,7 @@ services:
     volumes:
       - ./docs:/app/docs
       - /app/docs/modules
+      - /app/storage
 
     stdin_open: true
     tty: true

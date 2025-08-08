@@ -1,3 +1,4 @@
 Dockerfile
 docker-compose.yml
 docs/modules/*
+storage/storage_example_from_host.txt
